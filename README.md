@@ -1,5 +1,5 @@
 # PS
-## PS 
+## my first attempt at solving coding problems 
 
 ### Baekjoon Online Judge
 **[https://www.acmicpc.net/step]**
