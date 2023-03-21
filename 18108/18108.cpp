@@ -3,12 +3,19 @@ using namespace std;
 
 int main()
 {
-    int year;
+    int A;
+    int B;
+    int C;
 
     //cin >> (입력) cout << (출력)
-    cin >> year;
+    cin >> A;
+    cin >> B;
+    cin >> C;
 
-    cout << year-543 << endl;
+    cout << (A + B) % C << endl;
+    cout << ((A % C) + (B % C)) % C << endl;
+    cout << (A * B) % C << endl;
+    cout << ((A % C) * (B % C)) % C << endl;
 
     return 0;
 }
