@@ -1,6 +1,7 @@
 # PS
 ### my first attempt at solving coding problems
-### Baekjoon Online Judge (Currently, I am studying algorithms using only Baekjoon Online Judge.)
+### Baekjoon Online Judge 
+(Currently, I am studying algorithms using only Baekjoon Online Judge.)
 **[https://www.acmicpc.net/step]**
 
 ### Programmers
