@@ -1,9 +1,29 @@
-﻿// 1152.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
+﻿#include <iostream>
+#include <string>
+using namespace std;
 
-#include <iostream>
+int main() {
+	int count = 0;
+	string name;
+	getline(cin, name);
 
-int main()
-{
-    std::cout << "Hello World!\n";
+	count = 1;
+	//빈칸이 존재하면 하나씩 증가
+	for (int i = 0; i < name.length(); i++) 
+	{
+		if (name[i] == ' ') 
+		{
+			count++;
+		}
+	}
+	if (name[0] == ' ')
+	{
+		count--;
+	}
+	if (name[name.length() - 1] == ' ')
+	{
+		count--;
+	}
+	cout << count << '\n';
+	return 0;
 }
